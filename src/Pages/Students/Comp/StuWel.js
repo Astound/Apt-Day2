@@ -1,6 +1,6 @@
 import React from 'react'
 
-function InsWel() {
+function StuWel() {
   return (
     <div>
        <p className=' text-gray-400'> Hi Tarun,</p>
@@ -44,4 +44,4 @@ function InsWel() {
   )
 }
 
-export default InsWel
+export default StuWel

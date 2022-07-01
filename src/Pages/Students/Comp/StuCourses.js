@@ -1,8 +1,9 @@
 import React from 'react'
 
-function InsCourses() {
+function StuCourses() {
   return (
     <div>
+      <div>
        <div className='  flex flex-col'>
             
             <div class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md: max-w-md hover:bg-gray-100 ">
@@ -136,7 +137,8 @@ function InsCourses() {
 
         </div>
     </div>
+    </div>
   )
 }
 
-export default InsCourses
+export default StuCourses

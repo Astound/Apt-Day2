@@ -4,15 +4,13 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Instructor from './Pages/Instructor/Instructor';
-import Student from './Pages/Student/Student';
+import Student from './Pages/Students/Student';
 function App() {
   return (
     <div className="App">
       <Router>     
           <Routes>
-          <Route exact path="/" element={<Instructor/>}/>
-          <Route exact path="/stu" element={<Student/>}/>
+          <Route exact path="/" element={<Student/>}/>
         </Routes>
         </Router>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Instnt() {
+function Stutnt() {
   return (
     <div>
       <div className='flex font-sans flex-col space-y-4'>
@@ -103,4 +103,4 @@ function Instnt() {
   )
 }
 
-export default Instnt
+export default Stutnt
