@@ -1,7 +1,7 @@
 .layout{
     display:grid;
     height: 100vh;
-    grid-template-columns: 0.18fr 1fr;
+    grid-template-columns: 0.22fr 1fr;
     grid-template-areas:
       "side mid"
     ;
@@ -26,6 +26,19 @@
     ;
     gap: 1rem;
   }
+
+  .inslayout{
+    display:grid;
+    height: 100vh;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-areas:
+      "wel"
+      "course"
+      "chart"
+    ;
+    gap: 0.5rem;
+
+  }
   .welcome{
     grid-area: wel;
   }
@@ -38,3 +51,8 @@
   .tnt{
     grid-area: tnt;
   }
+  .chart{
+    grid-area: chart;
+  }
+
+  

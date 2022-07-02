@@ -2,7 +2,7 @@ import React from 'react'
 import InsMain from './Comp/InsMain'
 import InsSidebar from './Comp/InsSidebar'
 
-function Student() {
+function Instructor() {
   return (
     <div>
       <div className='layout'>
@@ -18,4 +18,4 @@ function Student() {
   )
 }
 
-export default Student
+export default Instructor

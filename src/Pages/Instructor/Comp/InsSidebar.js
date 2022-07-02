@@ -3,20 +3,21 @@ import React from 'react'
 function InsSidebar() {
   return (
     <div>
-      <div class="w-60 h-full shadow-md bg-white px-1 absolute">
+      <div class="w-72 h-full shadow-md bg-white px-1 absolute">
       <div class="flex items-center">
         <div class="shrink-0 mt-4 ml-3">
-          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="44" height="44" rx="10" fill="#0066FF"/>
-          </svg>
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="44" height="44" rx="10" fill="#30E0AB"/>
+</svg>
+
         </div>
         <div class="grow ml-3 mt-2">
-          <p class= " text-2xl font-bold text-blue-600">Student</p>
-          <p class="text-xs text-blue-600">DASHBOARD</p>
+          <p class= " text-2xl font-bold text-emerald-400">Instructor</p>
+          <p class="text-xs text-emerald-400">DASHBOARD</p>
         </div>
       </div>
   <ul class="relative mt-4 border-t-2">
-    <li class="relative bg-blue-500">
+    <li class="relative bg-emerald-400">
       <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">
       <svg class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4 13H10C10.55 13 11 12.55 11 12V4C11 3.45 10.55 3 10 3H4C3.45 3 3 3.45 3 4V12C3 12.55 3.45 13 4 13ZM4 21H10C10.55 21 11 20.55 11 20V16C11 15.45 10.55 15 10 15H4C3.45 15 3 15.45 3 16V20C3 20.55 3.45 21 4 21ZM14 21H20C20.55 21 21 20.55 21 20V12C21 11.45 20.55 11 20 11H14C13.45 11 13 11.45 13 12V20C13 20.55 13.45 21 14 21ZM13 4V8C13 8.55 13.45 9 14 9H20C20.55 9 21 8.55 21 8V4C21 3.45 20.55 3 20 3H14C13.45 3 13 3.45 13 4Z" fill="white"/>
