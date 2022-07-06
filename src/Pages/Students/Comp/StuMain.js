@@ -6,19 +6,19 @@ import StuWel from './StuWel'
 
 function StuMain() {
   return (
-    <div className='mainlayout p-4 font-sans'>
-      <div className='wel'>
+    <div className='grid grid-rows-4 p-4 font-sans'>
+      <div>
            <StuWel/>
       </div>
-      <div className='discuss'>
+      <div >
       <StuDis/>
       </div>
 
-      <div className='course'>
+      <div>
        <StuCourses/>
       </div>
 
-      <div className='tnt '>
+      <div>
         <Stutnt/>
       </div>
     </div>

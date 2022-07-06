@@ -1,3 +1,4 @@
+
 import './App.css'
 import {
   BrowserRouter as Router,
@@ -8,7 +9,7 @@ import Student from './Pages/Students/Student';
 import Instructor from './Pages/Instructor/Instructor';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>     
           <Routes>
           <Route exact path="/" element={<Student/>}/>

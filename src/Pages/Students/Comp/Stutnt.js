@@ -1,5 +1,5 @@
 import React from 'react'
-
+import StuTaskList from './StuTasks/StuTaskList'
 function Stutnt() {
   return (
     <div>
@@ -8,7 +8,7 @@ function Stutnt() {
                 <h1 className=' font-semibold text-2xl mb-3 ml-2'> Upcoming Task</h1>
                 <div>
                 <ul className='ml-2'>
-                    <li className=' border-l-4 pl-2 mb-4 border-blue-600'>
+                    {/* <li className=' border-l-4 pl-2 mb-4 border-blue-600'>
                         <h2 className=' font-semibold text-lg'> Environment Discuss</h2>
                         <p className=' text-gray-300 text-xs'> 01:00 PM - 02:00 PM</p>
                     </li>
@@ -19,7 +19,8 @@ function Stutnt() {
                     <li className=' border-l-4 pl-2 mb-4 border-blue-600'>
                         <h2 className=' font-semibold text-lg'> Environment Discuss</h2>
                         <p className=' text-gray-300 text-xs'> 01:00 PM - 02:00 PM</p>
-                    </li>
+                    </li> */}
+                    <StuTaskList/>
                 </ul>
                 <div className=' text-blue-600 text-right cursor-pointer'>
                     View all tasks

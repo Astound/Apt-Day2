@@ -3,7 +3,7 @@ import React from 'react'
 function StuSidebar() {
   return (
     <div>
-      <div class="w-72 h-full shadow-md bg-white px-1 absolute">
+      <div class="w-72 min-h-full  shadow-md bg-white px-1 fixed">
       <div class="flex items-center">
         <div class="shrink-0 mt-4 ml-3">
           <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
